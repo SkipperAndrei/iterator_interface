@@ -14,7 +14,9 @@ SPDX-License-Identifier: 2.0 license with LLVM exceptions
 **Status**: [Under development and not yet ready for production use.](https://github.com/bemanproject/beman/blob/main/docs/beman_library_maturity_model.md#under-development-and-not-yet-ready-for-production-use)
 <!-- markdownlint-enable -->
 
-Source is licensed with the Apache 2.0 license with LLVM exceptions
+## License
+
+beman.iterator_interface is licensed under the Apache License v2.0 with LLVM Exceptions.
 
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 
