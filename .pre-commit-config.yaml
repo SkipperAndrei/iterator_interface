@@ -38,3 +38,8 @@ repos:
       - id: codespell
         files: ^.*\.(cmake|cpp|hpp|txt|md|json|in|yaml|yml)$
         args: ["--ignore-words", ".codespellignore" ]
+
+  - repo: https://github.com/bemanproject/beman-tidy
+    rev: v0.3.1
+    hooks:
+      - id: beman-tidy
