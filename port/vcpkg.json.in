@@ -1,0 +1,23 @@
+{
+  "name": "beman-iterator-interface",
+  "version-semver": "@VERSION@",
+  "description": "iterator creation mechanisms",
+  "homepage": "https://github.com/bemanproject/iterator_interface",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "default-features": ["use-deducing-this"],
+  "features": {
+    "use-deducing-this": {
+      "description": "Use deducing this for CRTP-free interface (BEMAN_ITERATOR_INTERFACE_USE_DEDUCING_THIS=ON)"
+    }
+  }
+}
